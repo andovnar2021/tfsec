@@ -14,6 +14,6 @@ jobs:
         uses: actions/checkout@master
       - name: tfsec
         uses: aquasecurity/tfsec-action@v1.0.0
-        with:
-          soft_fail: true
-          working_directory: ./terraform
+       # with:
+         # soft_fail: true
+         # working_directory: ./terraform
